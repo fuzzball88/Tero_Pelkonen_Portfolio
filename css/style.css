@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18.12.2017, 21:14:25
+    Author     : terop
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin-bottom: 3rem;
+}
+
+.nav {
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#logoHeader{
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 100px;
+}
+
+#cover {
+    /*background-color: #fff;*/
+    /*height: 4.3rem;*/
+    background: url("../img/header/header_eyebot.png") no-repeat center;
+}
+
+#portfolio,
+#cv {
+    padding: 5rem 0;
+}
+
+#cv {
+    background-color: #f0f0f0;
+}
+
+#portfolio {
+    background-color: #e5e5e5;
+}
+
+.modal-content {
+    padding: 5rem;
+}
+
+footer {
+    background-color: #474747;
+    padding: 5rem 0;
+    color: #fff;
+}
+
+.footer-head {
+    padding-bottom: 1rem;
+    font-weight: 700;
+}
+
+.thumbnail {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 0;
+}
+
+.btn-primary {
+    border-radius: 0;
+    padding: 1rem 3rem;
+}
+
+.nav-pills>li>a {
+    border-radius: 0;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: transparent;
+    border-bottom: 4px solid #337ab7;
+}
